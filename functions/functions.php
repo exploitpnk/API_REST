@@ -69,7 +69,7 @@ function get_username_by_id($id) {
 	 * Recibe como argumento el ID de un usuario, retorna el nombre
 	 * del usuario en cuestión.
 	 */
-	$url = "https://jsonplaceholder.typicode.com/users/".$id;
+	$source = "https://jsonplaceholder.typicode.com/users/".$id;
 	$json_file = file_get_contents($source);
 	$object = json_decode($json_file, true);
 	return $object['name'];
