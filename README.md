@@ -16,7 +16,8 @@ git clone https://github.com/exploitpnk/API_REST.git
 
 ## Requirements
 
-Apache
+- Apache
+- PHP
 
 ## Live version
 Se utilizó una instancia EC2 de Amazon Web Services para ejecutar una versión en vivo del aplicativo [54.210.50.126](http://54.210.50.126)
